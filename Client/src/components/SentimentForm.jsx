@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const apiBaseUrl="http://localhost:8000";
+const apiBaseUrl="https://sentiment-analysis-1fcr.onrender.com";
 const SentimentForm = () => {
   const [text, setText] = useState('');
   const [result, setResult] = useState('');
